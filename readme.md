@@ -7,12 +7,12 @@
 ---
 
 ## Previews
-<video width="600" height="300" autoplay loop muted playsinline alt="Serci in action: Demonstrating the usage of bangs to quickly search Wikipedia and other services.">
-  <source src="https://github.com/user-attachments/assets/2c74c0c5-8500-443d-86e7-6ff7e36aa275" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video width="600" height="300" autoplay loop muted playsinline alt="Serci in action: Demonstrating the usage of bangs to quickly search Wikipedia and other services." src="https://github.com/user-attachments/assets/2c74c0c5-8500-443d-86e7-6ff7e36aa275" type="video/mp4">
+  Your browser does not support the video tag. </video>
+  
+### Opensearch.xml support
 
-
+![opensearch](https://github.com/user-attachments/assets/a7a166ae-5f77-4ec1-9e0e-24bfd3a43054)
 
 ## Table of Contents
 - [Features](#features)
@@ -34,6 +34,7 @@
 ## Installation
 Prerequisites: Node.js and pnpm
 
+Note: there are some hard coded urls inside the homepage.js, index.js, opensearch.xml and serci.js. Those should be changed if you want to deploy this yourself.
 ```bash
 # Clone the repository
 git clone https://github.com/Shohan-Sarker/sercis
