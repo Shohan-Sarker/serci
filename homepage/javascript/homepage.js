@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const spacesConvertedToPlus = plusCharactersEncoded.replace(/\s/g, '+');
     
     const encodedSearchQuery = spacesConvertedToPlus;
-    const searchUrl = `https://bangers.shohansarker.com?q=${encodedSearchQuery}`;
+    const searchUrl = `https://serci.shohansarker.com?q=${encodedSearchQuery}`;
     
     window.location.href = searchUrl;
   }
