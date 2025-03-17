@@ -46,7 +46,7 @@ cd serci
 pnpm install  # or npm install
 
 # Start the application
-pnpm start
+pnpm serve # pnpm install serve
 ```
 
 ## Contribution
